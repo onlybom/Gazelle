@@ -1058,7 +1058,7 @@ select:hover, option:hover {
 	background: #3F3F3F;
 }
 
-#logchecker .thin, #logchecker h3, .log_outer, .log_outer h3 {
+#logchecker h3, .log_outer, .log_outer h3 {
 	color: #444;
 }
 
