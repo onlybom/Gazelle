@@ -61,10 +61,6 @@ body {
 	background-size:cover;
 }
 
-#forums .box .body {
-	background-color: #000000e6
-} 
-
 .forum_post pre {
 	max-width: 660px;
 	max-height: 500px;
