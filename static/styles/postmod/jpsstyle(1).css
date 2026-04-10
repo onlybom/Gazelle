@@ -39,10 +39,10 @@ This design incorporates some code from the 'Customize Zeal' Greasemonkey script
 }
 
 /* Global */
-@font-face { font-family: Akzidenz; src: url('https://redacted.sh/static/styles/postmod/images/Akzidenz.otf'); }
-@font-face { font-family: Officina; src: url('https://redacted.sh/static/styles/postmod/images/Officina.otf'); }
-@font-face { font-family: Corpid; src: url('https://redacted.sh/static/styles/postmod/images/CorpidOffice.ttf'); }
-@font-face { font-family: Avant; src: url('https://redacted.sh/static/styles/postmod/images/Avant.otf'); }
+@font-face { font-family: Akzidenz; src: url('images/Akzidenz.otf'); }
+@font-face { font-family: Officina; src: url('images/Officina.otf'); }
+@font-face { font-family: Corpid; src: url('images/CorpidOffice.ttf'); }
+@font-face { font-family: Avant; src: url('images/Avant.otf'); }
 
 * {
 	padding: 0em;
