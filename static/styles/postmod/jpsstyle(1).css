@@ -1244,3 +1244,11 @@ input[type="search"] {
 .pad:has(> table) {
     padding: 0 !important;      /* Remove padding from the pad div itself */
 }
+
+#alerts {
+    display: none;
+}
+
+#alerts:has(.alertbar) {
+    display: block;
+}
