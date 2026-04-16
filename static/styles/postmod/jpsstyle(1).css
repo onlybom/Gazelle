@@ -173,24 +173,23 @@ ul.thin li { margin:0px 0px; padding:0px; }
 /* User class */ 
 
 a.permission_1,.permission_1 { /* Anthill Kicker */
-	color: #ffe743;
+	color: #FF0000;
 	text-shadow: 0 0 3px #bac3db;
 }
 a.permission_2,.permission_2 { /* User */
-	color: #ccc;
+	color: #010101;
 }
 a.permission_3,.permission_3 { /* Member */
-	color: #ADD8E6;
+	color: #3E3E84;
 }
 a.permission_4,.permission_4 { /* Power User */
-	color: #00cc66;
+	color: #4DD0FF;
 }
 a.permission_5,.permission_5 {
 	color: #3366CC;
 }
 a.permission_6,.permission_6 { /* VIP */
 	color: #DFB301;
-	text-shadow: 0 0 3px #ff4444;
 }
 a.permission_7,.permission_7 {
 	color: #FFFF66;
@@ -218,21 +217,20 @@ a.permission_13,.permission_13 {
 }
 a.permission_14,.permission_14 { /*Developer */
 	color: #F78181;
-	text-shadow: 0 0 3px #bac3db;
 }
 a.permission_15,.permission_15 { /* Sysop */
-	color: #ffff99;
+	color: #CD0174;
 	text-shadow: 0 0 3px #bac3db;
 }
 a.permission_20,.permission_20 { /* Donor */
-	color: #ff4444;
+	color: #11D587;
 font-size: 9pt;
 }
 a.permission_21,.permission_21 { /* Restricted */
-	color: #666;;
+	color: #AEB404;;
 }
 a.permission_22,.permission_22 { /* Super VIP */
-	color: #ff4444;
+	color: #990099;
 	text-shadow: 0 0 3px #ff4444;	
 }
 a.permission_23,.permission_23 { /* Christmas Elf */
@@ -894,6 +892,34 @@ tr.torrent td {
 }
 
 /* Layout (Forums) */
+
+td img[src="/static/styles/layer_cake/images/folder_common.gif"] {
+    display: none;
+}
+
+td:has(img[src="/static/styles/layer_cake/images/folder_common.gif"])::before {
+    content: "";
+    display: inline-block;
+    width: 16px;  /* match original size */
+    height: 16px;
+    background-image: url("images/read.png");
+    background-size: contain;
+    background-repeat: no-repeat center center;
+}
+
+td img[src="/static/styles/layer_cake/images/folder_new.gif"] {
+    display: none;
+}
+
+td:has(img[src="/static/styles/layer_cake/images/folder_new.gif"])::before {
+    content: "";
+    display: inline-block;
+    width: 16px;  /* match size */
+    height: 16px;
+    background-image: url("images/unread.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 .unread_locked_sticky{background: url('https://redacted.sh/static/styles/postmod/images/locked_sticky_unread.png') no-repeat center center;}
 .read_locked_sticky{background: url('https://redacted.sh/static/styles/postmod/images/locked_sticky_read.png') no-repeat center center;}
